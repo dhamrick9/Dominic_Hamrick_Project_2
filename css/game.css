@@ -1,0 +1,43 @@
+.background    { background-image: url("../img/Space.png");
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background-image: url('../img/acid.jpg');
+				 border-radius: 2%;
+		  		 width:20px;
+		  		 height:20px; }
+
+.wall          { background: #999999; 
+				border-radius: 20%;
+		  		width:20px;
+		  		height:20px;}
+
+.actor  { position: absolute;  }
+.player { background-image: url("../img/astronaut-suit.png");
+		  background-size: 100%; }
+
+.coin { background: #FFC300;
+		border-radius: 50%;
+		width: scale;
+		height: scale;
+ }
+		
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+
+}
+.trophy { background-image: url("../img/trophySmall.png"); }
+.enemy { background-image: url("../img/space-invaders.png"); }
+.enemy2 { background-image: url("../img/alien.png"); 
+		   }
+
+.lost .player {
+  background: rgb(160, 64, 64);
+}
+.won .player {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
